@@ -1,0 +1,8 @@
+services:
+  dsci522:
+    build: .
+    container_name: dsci522-container
+    ports:
+      - "8888:8888"
+    volumes:
+      - .:/home/jovyan/work
